@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SindhSchoolMap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title">School Map</string>
+    <string name="view_schools">View Existing Schools</string>
+    <string name="enter_new_school">Enter A New School</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="lbl_district">District :</string>
+    <string name="lbl_tehsil">Tehseel :</string>
+    <string name="lbl_uc">Union Council :</string>
+    <string name="lbl_select_region">Select School Region</string>
+    <string name="lbl_add_details">Add More Details</string>
+    <string name="lbl_school_status">School Status :</string>
+    <string name="lbl_num_classrooms">Number Of Classrooms :</string>
+    <string name="lbl_num_bathrooms">Number Of Bathrooms :</string>
+    <string name="lbl_electricity">Electricity</string>
+    <string name="lbl_water">Drinking Water</string>
+    <string name="lbl_wall">Boundary Wall</string>
+    <string name="lbl_teachers_on_roll">Teachers On Roll :</string>
+    <string name="lbl_teachers_presenet">Teachers Present :</string>
+    <string name="lbl_students_on_roll">Students On Roll :</string>
+    <string name="lbl_students_present">Students Present :</string>
+    <string name="lbl_comments">Comments :</string>
+    <string name="hint_school_name">Enter School Name</string>
+
+    <string-array name="karachi_districts">
+        <item>East</item>
+        <item>West</item>
+        <item>South</item>
+        <item>Central</item>
+        <item>Malir</item>
+    </string-array>
+    <string-array name="karachi_east">
+        <item>Gulsha-e-Iqbal Town</item>
+        <item>Korangi Town</item>
+        <item>Landhi Town</item>
+        <item>Shah Faisal Town</item>
+    </string-array>
+    <string-array name="karachi_west">
+        <item>Baldia Town</item>
+        <item>Kiamari Town</item>
+        <item>Orangi Town</item>
+        <item>SITE Town</item>
+    </string-array>
+    <string-array name="karachi_south">
+        <item>Jamshed Town</item>
+        <item>Lyari Town</item>
+        <item>Saddar Town</item>
+    </string-array>
+    <string-array name="karachi_central">
+        <item>Gulberg Town</item>
+        <item>Liaqatabad Town</item>
+        <item>New Karachi Town</item>
+        <item>North Nazimabad Town</item>
+    </string-array>
+    <string-array name="karachi_malir">
+        <item>Bin Qasim Town</item>
+        <item>Gadap Town</item>
+        <item>Malir Town</item>
+    </string-array>
+    
+    <string-array name="school_status">
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+
+</resources>

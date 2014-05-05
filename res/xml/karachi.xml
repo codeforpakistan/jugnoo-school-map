@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<City name ="Karachi">
+    <District name="East">
+        <Town>Gulshan Town</Town>
+        <Town>Korangi Town</Town>
+    </District>
+    <District name="West">
+        <Town>Baldia Town</Town>
+        <Town>Kiamari Town</Town>
+    </District>
+    
+    
+</City>

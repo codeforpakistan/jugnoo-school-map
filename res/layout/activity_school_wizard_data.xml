@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSubmit"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin" >
+
+            <TextView
+                android:id="@+id/txtAddMoreDetails"
+                style="@style/TextWizardHeader"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbl_add_details" />
+
+            <TextView
+                android:id="@+id/txtSchoolStatus"
+                style="@style/TextWizardLabel"
+                android:layout_below="@+id/txtAddMoreDetails"
+                android:text="@string/lbl_school_status" />
+
+            <Spinner
+                android:id="@+id/spnrStatus"
+                style="@style/SpinnerWizard"
+                android:layout_below="@+id/txtSchoolStatus" />
+
+            <TextView
+                android:id="@+id/txtNumClassRooms"
+                style="@style/TextWizardLabel"
+                android:layout_below="@+id/spnrStatus"
+                android:text="@string/lbl_num_classrooms" />
+
+            <EditText
+                android:id="@+id/editTxtNumClassRooms"
+                style="@style/EditTextSmallWizard"
+                android:layout_below="@+id/txtNumClassRooms" />
+
+            <TextView
+                android:id="@+id/txtNumBathrooms"
+                style="@style/TextWizardLabel"
+                android:layout_below="@+id/editTxtNumClassRooms"
+                android:text="@string/lbl_num_bathrooms" />
+
+            <EditText
+                android:id="@+id/editTxtNumBathrooms"
+                style="@style/EditTextSmallWizard"
+                android:layout_below="@+id/txtNumBathrooms" />
+
+            <CheckBox
+                android:id="@+id/checkboxElectricity"
+                style="@style/CheckboxWizard"
+                android:layout_below="@+id/editTxtNumBathrooms"
+                android:text="@string/lbl_electricity" />
+
+            <CheckBox
+                android:id="@+id/checkboxWater"
+                style="@style/CheckboxWizard"
+                android:layout_below="@+id/checkboxElectricity"
+                android:text="@string/lbl_water" />
+
+            <CheckBox
+                android:id="@+id/checkboxWall"
+                style="@style/CheckboxWizard"
+                android:layout_below="@+id/checkboxWater"
+                android:text="@string/lbl_wall" />
+
+            <TextView
+                android:id="@+id/txtTeachersOnRoll"
+                style="@style/TextWizardLabel"
+                android:layout_below="@+id/checkboxWall"
+                android:text="@string/lbl_teachers_on_roll" />
+
+            <EditText
+                android:id="@+id/editTxtTeachersOnRoll"
+                style="@style/EditTextSmallWizard"
+                android:layout_below="@+id/txtTeachersOnRoll" />
+
+            <TextView
+                android:id="@+id/txtTeachersPresent"
+                style="@style/TextWizardLabel"
+                android:layout_below="@+id/editTxtTeachersOnRoll"
+                android:text="@string/lbl_teachers_presenet" />
+
+            <EditText
+                android:id="@+id/editTxtTeachersPresent"
+                style="@style/EditTextSmallWizard"
+                android:layout_below="@+id/txtTeachersPresent" />
+
+            <TextView
+                android:id="@+id/txtStudentsOnRoll"
+                style="@style/TextWizardLabel"
+                android:layout_below="@+id/editTxtTeachersPresent"
+                android:text="@string/lbl_students_on_roll" />
+
+            <EditText
+                android:id="@+id/editTxtStudentsOnRoll"
+                style="@style/EditTextSmallWizard"
+                android:layout_below="@+id/txtStudentsOnRoll" />
+
+            <TextView
+                android:id="@+id/txtStudentsPresent"
+                style="@style/TextWizardLabel"
+                android:layout_below="@+id/editTxtStudentsOnRoll"
+                android:text="@string/lbl_students_present" />
+
+            <EditText
+                android:id="@+id/editTxtStudentsPresent"
+                style="@style/EditTextSmallWizard"
+                android:layout_below="@+id/txtStudentsPresent" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/ButtonBottomWizard"
+        android:text="@string/submit" />
+
+</RelativeLayout>
